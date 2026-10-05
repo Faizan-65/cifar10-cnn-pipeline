@@ -32,3 +32,8 @@ data/processed/
 # Local-only: report evidence and Colab download notebook
 evidence/
 moel.ipynb
+
+# Report drafts and Word lock files
+*.docx
+.~*
+~$*
