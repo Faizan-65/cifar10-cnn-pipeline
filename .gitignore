@@ -24,3 +24,11 @@ __pycache__/
 
 # torchvision download cache (raw arrays are versioned via DVC)
 data/downloads/
+
+# Data payloads (versioned via DVC from Part C on)
+data/raw/
+data/processed/
+
+# Local-only: report evidence and Colab download notebook
+evidence/
+moel.ipynb
