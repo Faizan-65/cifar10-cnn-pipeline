@@ -1,0 +1,4 @@
+[core]
+    remote = dagshub_remote
+['remote "dagshub_remote"']
+    url = https://dagshub.com/Faizan-65/cifar10-cnn-pipeline.dvc
