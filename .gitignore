@@ -1,4 +1,26 @@
-.ipynb_checkpoints/
-__pycache__/
-.DS_Store
+# Python
+venv/
 .venv/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+
+# DVC local cache/config
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+
+# Credentials
+.env
+*.pem
+
+# Model files are stored with DVC, not Git
+*.pth
+*.h5
+
+# torchvision download cache (raw arrays are versioned via DVC)
+data/downloads/
