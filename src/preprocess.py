@@ -23,8 +23,8 @@ x_test = test["x"].permute(0, 3, 1, 2).float() / 255.0
 y_test = test["y"].long()
 
 # CIFAR-10 standardization constants
-mean = torch.tensor([0.4914, 0.4822, 0.4465]).view(1, 3, 1, 1)
-std = torch.tensor([0.2470, 0.2435, 0.2616]).view(1, 3, 1, 1)
+mean = torch.tensor([0.50, 0.50, 0.50]).view(1, 3, 1, 1)
+std = torch.tensor([0.25, 0.25, 0.25]).view(1, 3, 1, 1)
 x = (x - mean) / std
 x_test = (x_test - mean) / std
 
